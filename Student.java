@@ -9,6 +9,19 @@ public class Student {
 		this.name = name;
 		this.address = address;
 	}
+
+	// Getter methods for encapsulation
+	public int getRollno() {
+		return rollno;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getAddresses() {
+		return addresses;
+	}
 	
 	
 	@Override
